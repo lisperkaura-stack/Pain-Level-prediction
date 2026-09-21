@@ -29,10 +29,6 @@ if st.button("Predict Pain Level"):
     input_data = pd.DataFrame({
         "Age": [age],
         "Sex": [sex],
-        "County": [county],
-        "Sub-County": [subcounty],
-        "Education Level": [education],
-        "Occupation": [occupation],
         "HIV Status": [hiv_status],
         "Type of Cancer": [cancer_type],
         "Primary Site": [primary_site],
