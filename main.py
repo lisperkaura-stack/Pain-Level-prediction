@@ -13,17 +13,6 @@ age = st.number_input("Age", min_value=0, max_value=120, value=40)
 
 sex = st.selectbox("Sex", ["male", "female"])
 
-county = st.text_input("County")
-
-subcounty = st.text_input("Sub-County")
-
-education = st.selectbox(
-    "Education Level",
-    ["none", "primary", "secondary", "tertiary"]
-)
-
-occupation = st.text_input("Occupation")
-
 hiv_status = st.selectbox(
     "HIV Status",
     ["positive", "negative"]
